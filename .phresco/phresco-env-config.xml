@@ -1,0 +1,27 @@
+<environments>
+    <environment default="true" desc="Production Environment is used for Development purpose only" name="Production">
+        <Server desc="" name="server">
+            <context>htmlMJW</context>
+            <deploy_dir>C:\apache-tomcat-7.0.26\webapps</deploy_dir>
+            <admin_username/>
+            <additional_context/>
+            <port>8080</port>
+            <admin_password/>
+            <version>7.0.x</version>
+            <certificate/>
+            <type>Apache Tomcat</type>
+            <remoteDeployment>false</remoteDeployment>
+            <protocol>http</protocol>
+            <host>localhost</host>
+        </Server>
+    <Database desc="" name="database">
+            <version>5.5.1</version>
+            <port>3306</port>
+            <password/>
+            <type>MySQL</type>
+            <host>localhost</host>
+            <dbname>html</dbname>
+            <username>root</username>
+        </Database>
+    </environment>
+</environments>
